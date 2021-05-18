@@ -27,8 +27,6 @@ function AddProduct(props) {
       <button
         onClick={(event) => {
           addProduct(title, quantity);
-          setTitle("");
-          setQuantity("");
         }}
       >
         {" "}
